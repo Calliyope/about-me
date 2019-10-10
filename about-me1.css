@@ -1,6 +1,6 @@
 :root {
     --main-white: #F3EFF5;
-    --main-yellow: #FCE205;
+    --main-yellow: #ffe825;
     --main-green: #207C75;
     --main-gray: #34323D;
     --main-pink: #4C0D2C;
@@ -26,7 +26,7 @@ h1,h2,h3 {
   }
   
  h1 {
-    font-size: 6rem;
+    font-size: 5rem;
   }
   
 h2 {
