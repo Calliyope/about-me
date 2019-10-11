@@ -41,9 +41,6 @@ a {
     text-decoration: none;
     color: var(--main-white)
   }
-  
-img {
-  }
 
   /* Navigation Styling */
   
@@ -60,10 +57,11 @@ img {
   }
 
 #nav-bee {
-  width:70px;
-  height:45px; 
+  width:65px;
+  height:40px; 
   margin-top:2px;
   margin-bottom:2px;
+  margin-left:10px;
   
 }
   
