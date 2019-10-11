@@ -1,10 +1,7 @@
 :root {
     --main-white: #F3EFF5;
-    --main-light-yellow:#f8f0a3 ;
     --main-yellow: #ffe825;
-    --main-green: #207C75;
     --main-gray: #34323D;
-    --main-pink: #4C0D2C;
   }
 
   /* Base Styling */
@@ -16,7 +13,7 @@ body {
     line-height: 1.4; */
     color: var(--main-white);
     margin:0px;
-    background-color: #000;
+    background-color: #181719;
     background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
     min-height: calc(100vh - 70px);
   }
@@ -42,7 +39,7 @@ h3 {
   
 a {
     text-decoration: none;
-    color: var(--main-gray);
+    color: var(--main-white)
   }
   
 img {
@@ -57,8 +54,7 @@ img {
     top: 0;
     left: 0;
     width: 100%;
-    background: var(--main-yellow);
-    background-image: linear-gradient(180deg, #ffe825 0%, #fff281 100%);
+    background-image: linear-gradient(0deg, #ffe825 0%, #5f570e 5%, #2b291b 100%);
     z-index: 10;
     margin-bottom: 25px;
   }
@@ -68,6 +64,7 @@ img {
   height:45px; 
   margin-top:2px;
   margin-bottom:2px;
+  
 }
   
 .nav-list {
@@ -79,7 +76,7 @@ img {
 
 .nav-list a {
     display: block;
-    font-size: 1rem;
+    font-size: 1.5rem;
     padding: 0.5rem;
   }
   
@@ -151,9 +148,9 @@ img {
   bottom: 0;
   left: 0;
   width: 100%;
-  background: var(--main-yellow);
+  background-image: linear-gradient(180deg, #ffe825 0%, #5f570e 5%, #2b291b 100%);
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
   z-index: 10;
-  margin-top: 25px;
+  margin-top: 15px;
 }
 
